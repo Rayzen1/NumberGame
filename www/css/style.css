@@ -1,0 +1,73 @@
+		
+			#txt1{
+				width:50%;
+				height:80px;
+				background:#ecf0f1;
+				font-size:30px;
+				color:#2c3e50;
+				text-align:center;
+				border:none;
+				border-radius:15px;
+				padding:15px;
+				margin:10%;
+				margin:0px auto; 	
+				-moz-box-shadow:    3px 8px #000;
+				-webkit-box-shadow: 3px 8px #000;
+				box-shadow:         3px 8px #000;
+			}
+			body{
+				background:url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-full-matte-grain-texture-flare-black-background-granulefrosted-textureblackblack-goldfrosted-image_71659.jpg');
+				background-repeat:no-repeat;
+				background-size:100% 100%;
+			}
+			h1{
+				color:#fff;
+				text-align: center;
+				font-family: 'Squada One', cursive;
+				font-size: 900%;
+				margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+				margin-top: 10%;
+				text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+			}
+			h3.instructions{
+				margin-top:10%;
+				text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+				margin-bottom:10%;
+			}
+			h3{
+				color:#fff;
+				text-align: center;
+				font-family: 'Squada One', cursive;
+				font-size: 700%;
+				margin-top: 20%;
+				margin-bottom: 20%;
+				margin-left: auto;
+				margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			  margin-right: auto;
+			  width: auto;
+			}
+			#playimg{
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			  margin-top:100px;
+			  height: 35%;
+			  width: 35%;  
+			}
+			#mainimg{
+				padding:15px;
+			}
+			#playbtn{
+				display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			  margin-top:19%;
+			  height: 10%;
+			  width: 50%;
+			}

@@ -1,0 +1,85 @@
+			h1{
+				color:#fff;
+				text-align: center;
+				font-family: 'Squada One', cursive;
+				font-size: 500%;
+				margin-top: 10%;
+				margin-top:15%;
+				margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+				text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+			}
+
+			body{
+				background:url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-full-matte-grain-texture-flare-black-background-granulefrosted-textureblackblack-goldfrosted-image_71659.jpg');
+				background-repeat:no-repeat;
+				background-size:100% 100%;
+				
+			}		
+			p.guide{
+				color:#fff;
+				text-align: center;
+				font-family: 'Squada One', cursive;
+				font-size: 290%;
+				margin-top: 3%;
+				margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+				text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+			}
+			.table{
+				font-family: 'Squada One', cursive;
+				position:relative;
+				max-width:800px;
+				height:auto;
+				background:#fff;
+				padding:5px;
+				line-height:1.7;
+				box-sizing: border-box;
+				margin:10px auto;
+				font-size: 300%;
+				text-align:center;
+				margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+				border: 18px double #000000;
+				border-radius: 40px 0px 40px 0px;
+				text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+			}
+
+				.guidelines{
+				font-family: 'Squada One', cursive;
+				position:relative;
+				max-width:800px;
+				height:auto;
+				background:#fff;
+				padding:5px;
+				line-height:1.7;
+				box-sizing: border-box;
+				margin:5px auto;
+				font-size: 300%;
+				margin-bottom: 10%;
+				border: 18px double #000000;
+				margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+				border-radius: 40px 0px 40px 0px;
+				text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+			}
+				#home{
+				position:absolute;
+				top:3%;
+				left:3%;
+				height:6%;
+				width:6%;
+				margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+				
+			}
+
+
+
+
+
