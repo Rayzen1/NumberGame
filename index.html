@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>My Game</title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		
+	<style>
+				body{
+				background-image:url("img/bck.png");
+				background-repeat:no-repeat;
+				background-size:1000px 1800px;
+				font-family: 'Squada One', cursive;
+				background-size:     cover;                
+				background-position: center center;
+				}
+				
+				.zoom{
+				zoom:-10;
+				}
+	</style	
+	</head>
+	<body>
+		<div id="main">
+			<h1>NUMBER GAME</h1>
+			<img id="playimg" src="img/Artboard 1.png">
+			<a href="level1.html"><img id="playbtn" src="img/Artboard 2.png"></a>
+			<a href="instructions.html"><h3 class="instructions">INSTRUCTIONS</h3></a>
+		</div>	
+	</body>
+	<script>
+	window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+	localStorage.removeItem("lvl1tries");
+	localStorage.removeItem("lvl1tscore");
+	localStorage.removeItem("lvl2tries");
+	localStorage.removeItem("lvl2tscore");
+	localStorage.removeItem("lvl3tries");
+	localStorage.removeItem("lvl3tscore");
+	localStorage.removeItem("lvl4tries");
+	localStorage.removeItem("lvl4tscore");
+	localStorage.removeItem("lvl5tries");
+	localStorage.removeItem("lvl5tscore");
+	</script>
+</html>
