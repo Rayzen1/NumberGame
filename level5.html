@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Level 5</title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+			<link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+				<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+					<link rel="stylesheet" type="text/css" href="css/levels.css"/>
+				<style>
+				body{
+				background-image:url("img/bck.png");
+				background-repeat:no-repeat;
+				background-size:1000px 1800px;
+				font-family: 'Squada One', cursive;
+				background-size:     cover;                
+				background-position: center center;
+				}
+				</style
+				</head>
+				<body>
+					<div id="main">
+						<h1>LEVEL 5</h1>
+
+						<h2>GUESS FROM 1-300 </h2>
+
+						<img id="play" src="img/Artboard 1.png">
+							<p style="text-align:center">
+								<input id="txt1" type="text" placeholder="Input">
+									<br>
+										<button onclick="Check()" id="btn">OK</button>
+									</p>
+									<a href="index.html"><img id="home" src="img/Artboard 3.png"></a>
+								</div>	
+							</body>
+							<script>
+		localStorage.removeItem("lvl5tries");
+		localStorage.removeItem("lvl5tscore");
+		var random = Math.round(Math.random() * 300) +1;
+		var flag = 0;
+		var tries = 0;
+		var lvl5score = 300;
+		function Check(){
+		
+			
+
+			var number = document.getElementById("txt1").value;
+			var gap = number - random;
+			gap = Math.abs(gap);
+			if(tries >= 10){
+				alert("Level Failed Proceeding to next..");
+				lvl5score = 0;
+				localStorage.setItem("lvl5tscore",lvl5score);
+				localStorage.setItem("lvl5tries",tries);
+				window.location.href="endscreen.html";
+			}
+			
+			else if(number<random){
+				alert("Too Low");
+				if(gap==2||gap==1){
+					alert("You Are Close... 1 or 2 numbers away");
+				}
+					else if(tries>=5){
+					alert("The gap is +/- " + gap + " numbers"); 
+					
+				}
+			}else if(number>random){
+				alert("Too High");
+				if(gap==2||gap==1){
+					alert("You Are Close... 1 or 2 numbers away");
+				}
+					else if(tries>=5){
+					alert("The gap is +/- " + gap + " numbers");
+				}
+			}else if(number==random){
+				alert("Congrats!!");
+				localStorage.setItem("lvl5tscore",lvl5score);
+				localStorage.setItem("lvl5tries",tries);
+				window.location.href="endscreen.html";
+			}
+			tries++;
+
+
+		}
+										</script>	
+									</html>

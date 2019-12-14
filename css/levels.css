@@ -1,0 +1,94 @@
+			@font-face{
+				font-family: codehack;
+				src: url(fonts/Nightmare Codehack.otf) format("opentype");
+			}
+			#txt1{
+				width:80%;
+				height:120px;
+				background:#ecf0f1;
+				font-size:300%;
+				color:#2c3e50;
+				text-align:center;
+				border:none;
+				border-radius:15px;
+				padding:15px;
+				margin-top:5%;
+				margin-bottom:5%;
+				font-family: 'Squada One', cursive;
+				border: 15px groove #999999;
+				border-radius: 40px;
+				
+			}
+			body{
+				background-image:url("img/bck.png");
+				background-repeat:no-repeat;
+				background-size:1000px 1800px;
+				font-family: 'Squada One', cursive;
+			}
+			h1{
+			color:#fff;
+			text-align:center;
+			font-size: 900%;
+			font-family: 'Squada One', cursive;
+			margin-top: 10%;
+			margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+			}
+			h2{
+			color:#fff;
+			text-align:center;
+			font-size: 350%;
+			margin-top: 1%;
+			margin-bottom: 10%;
+			margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			font-family: 'Squada One', cursive;
+			text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+			}	
+			
+			p{
+				font-size:20px;
+				color:#fff;
+			}
+			
+			#play{
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				height: 35%;
+				width: 35%;  
+				margin-top:10%;
+				margin-bottom:5%;
+			  width: auto;
+			}
+			#main{
+				padding:15px;
+			}
+			#btn{
+				margin:10%;
+				margin:0px auto; 
+				margin-top:3%;
+				cursor:pointer;
+				height:80px;
+				width:900px;
+				font-size: 200%;
+				font-family: 'Squada One', cursive;
+				text-align: center center;
+				margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			}
+			
+			#home{
+			position:absolute;
+			top:3%;
+			left:3%;
+			height:6%;
+			width:6%;
+			margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			}

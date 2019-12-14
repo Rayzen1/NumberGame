@@ -1,0 +1,88 @@
+			#home{
+			position:absolute;
+			top:3%;
+			left:3%;
+			height:6%;
+			width:6%;
+			margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			}
+			#playimg{
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			  margin-top:100px;
+			  height: 35%;
+			  width: 35%;
+			}  
+			h1{
+			  color:#fff;
+			  text-align: center;
+			  font-family: 'Squada One', cursive;
+			  font-size: 700%;
+			  margin-top: 10%;
+			  margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+			}  
+			body{
+				background:url('https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-full-matte-grain-texture-flare-black-background-granulefrosted-textureblackblack-goldfrosted-image_71659.jpg');
+				background-repeat:no-repeat;
+				background-size:100% 100%;
+			}
+			#scorebox{
+				font-family: 'Squada One', cursive;
+				position:relative;
+				max-width:800px;
+				height:auto;
+				background:#fff;
+				padding:5px;
+				line-height:1.7;
+				box-sizing: border-box;
+				margin:50px auto;
+				text-align: center;
+				-webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 4px 15px 23px rgba(255,225,230,0); 
+				box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 4px 15px 23px rgba(255,225,230,0);
+				border: 15px ridge #999999;
+				border-radius: 0px 0px 0px 40px;
+				margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+			}
+			
+			.identifier{
+				float:left;
+				color:black;
+				font-size: 70px;
+				font-family: 'Squada One', cursive;
+				margin-left: 19%;
+
+				text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+			}
+			
+			.result{
+				float:left;
+				color:black;
+				font-size: 70px;
+				margin-left: 15%;
+				font-family: 'Squada One', cursive;
+				text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 5px -8px 11px rgba(51,255,69,0);
+				
+			}
+			.c{clear:both;}
+			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Level 1</title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+			<link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+				<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+					<link rel="stylesheet" type="text/css" href="css/levels.css"/>
+				<style>
+				body{
+				background-image:url("img/bck.png");
+				background-repeat:no-repeat;
+				background-size:1000px 1800px;
+				font-family: 'Squada One', cursive;
+				background-size:     cover;                
+				background-position: center center;
+				}
+				</style>
+				</head>
+				<body>
+					<div id="main">
+						<h1>LEVEL 1</h1>
+						<h2>GUESS FROM 1-50 </h2>
+
+						<img id="play" src="img/Artboard 1.png">
+							<p style="text-align:center">
+								<input id="txt1" type="text" placeholder="Input">
+									<br>
+										<button onclick="Check()" id="btn">OK</button>
+									</p>
+									
+									<a href="index.html"><img id="home" src="img/Artboard 3.png"></a>	
+								</div>		
+							</body>
+							<script type=text/javascript>
+			localStorage.removeItem("lvl1tries");
+			localStorage.removeItem("lvl1tscore");
+			localStorage.removeItem("lvl2tries");
+			localStorage.removeItem("lvl2tscore");
+			var random = Math.round(Math.random() * 50) + 1;
+			var flag = 0;
+			var tries = 0;
+			var lvl1score = 50;
+			function Check(){
+			var number = document.getElementById("txt1").value;
+			var gap = number - random;
+			gap = Math.abs(gap);
+			if(tries >= 10){
+				alert("Level Failed Proceeding to next..");
+				lvl1score = 0;
+				localStorage.setItem("lvl1tscore",lvl1score);
+				localStorage.setItem("lvl1tries",tries);
+				window.location.href="level2.html";
+			}
+			 else if(number<random){
+				alert("Too Low");
+				
+					if(gap==2||gap==1){
+					alert("You Are Close... 1 or 2 numbers away");
+				}
+					else if(tries>=5){
+					alert("The gap is +/- " + gap + " numbers"); 
+					}
+				}
+			else if(number>random){
+				alert("Too High");
+					if(gap==2||gap==1){
+					alert("You Are Close... 1 or 2 numbers away");
+				}
+					else if(tries>=5){
+					alert("The gap is +/- " + gap + " numbers");
+					
+				}
+			}else if(number==random){
+				alert("Congrats!! proceeding to the Next Level");
+				
+				localStorage.setItem("lvl1tscore",lvl1score);
+				localStorage.setItem("lvl1tries",tries);
+				window.location.href="level2.html";
+			}
+			tries++;
+
+		}
+	</script>	
+</html>

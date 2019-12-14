@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>My Game</title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/end.css" />
+	<style>
+				body{
+				background-image:url("img/bck.png");
+				background-repeat:no-repeat;
+				background-size:1000px 1800px;
+				font-family: 'Squada One', cursive;
+				background-size:     cover;                
+				background-position: center center;
+				}
+	</style		
+	</head>
+	<body>
+		<div id="main">
+			<h1>Your Score</h1>
+
+			<img id="playimg" src="img/Artboard 1.png">
+			<a href="index.html"><img id="home" src="img/Artboard 3.png"></a>
+			
+			<div id="scorebox">
+				<div class="identifier">
+					<p id="totaltries"> Total Tries </p>
+					<p id="totalscore"> Total Score </p>
+					<p id="finalscore"> Final Score </p>
+				</div>
+				<div class="result">
+					<p id="tries"> * </p>
+					<p id="score"> * </p>
+					<p id="tscore"> * </p>
+					
+				</div>
+				<div class="c"></div>
+			</div>
+		
+		</div>	
+	</body>
+	<script>
+	var lvl1try = localStorage.getItem("lvl1tries");
+	var lvl2try = localStorage.getItem("lvl2tries");
+	var lvl3try = localStorage.getItem("lvl3tries");
+	var lvl4try = localStorage.getItem("lvl4tries");
+	var lvl5try = localStorage.getItem("lvl5tries");
+	
+	var lvl1score = localStorage.getItem("lvl1tscore");
+	var lvl2score = localStorage.getItem("lvl2tscore");
+	var lvl3score = localStorage.getItem("lvl3tscore");
+	var lvl4score = localStorage.getItem("lvl4tscore");
+	var lvl5score = localStorage.getItem("lvl5tscore");
+	
+	var lvl1trynum = parseInt(lvl1try, 10);
+	var lvl2trynum = parseInt(lvl2try, 10);
+	var lvl3trynum = parseInt(lvl3try, 10);
+	var lvl4trynum = parseInt(lvl4try, 10);
+	var lvl5trynum = parseInt(lvl5try, 10);
+	
+	var lvl1scorenum = parseInt(lvl1score, 10);
+	var lvl2scorenum = parseInt(lvl2score, 10);
+	var lvl3scorenum = parseInt(lvl3score, 10);
+	var lvl4scorenum = parseInt(lvl4score, 10);
+	var lvl5scorenum = parseInt(lvl5score, 10);
+	
+	var TotalTries = lvl1trynum + lvl2trynum + lvl3trynum + lvl4trynum + lvl5trynum;
+	var TotalScore = lvl1scorenum + lvl2scorenum + lvl3scorenum + lvl4scorenum + lvl5scorenum;
+	var FinalScore = TotalScore-(TotalTries*5);
+	
+	document.getElementById("tries").innerHTML = TotalTries;
+	document.getElementById("score").innerHTML = TotalScore;
+	document.getElementById("tscore").innerHTML = FinalScore;
+	</script>
+</html>
